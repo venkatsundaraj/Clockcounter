@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image: url(https://images.pexels.com/photos/1292115/pexels-photo-1292115.jpeg?auto=compress&cs=tinysrgb&w=600);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+h1{
+  font-size: 6.4rem;
+}
+
+.numbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.numbox span{
+  font-size: 2.8rem;
+}
+
+.box{
+  font-size: 12rem;
+  font-weight: bold;
+  line-height: 1.8;
+  animation: animate 0.3s  ;
+}
+@keyframes animate{
+  0%{
+    transform: translateY(-100%);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+.countdown-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5.8rem;
+  flex-wrap: wrap;
+}
